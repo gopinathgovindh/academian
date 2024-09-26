@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Academian</title>
+    <link rel="stylesheet" href="./assets/css/output.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="header sticky top-0 h-16 shadow-md flex items-center bg-black text-white">
+        <nav class="container mx-auto flex justify-between items-center px-10">
+            <h1 class="text-base font-medium">academian</h1>
+            <div class="flex items-center md:hidden">
+                <button id="hamburger" class="focus:outline-none">
+                    <svg id="hamburgerIcon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                    <svg id="closeIcon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+            <ul id="menu" class="hidden md:flex space-x-8">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Insider</a></li>
+                <li><a href="#">About</a></li>
+                <li class="contact-menu"><a href="#" class="hover:text-gray-900">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="mobileMenu" class="hidden flex-col items-center md:hidden absolute top-16 left-0 w-full bg-black">
+            <ul class="space-y-2 p-4">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Insider</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>    
+
+    <main>
+        <section class="relative text-white h-screen-none items-center justify-center">
+            <div class="hero">
+                <div class="hero-section justify-center">
+                    <img src="./assets/images/backgrounds/union-9.png" alt="Responsive Image" class="absolute -top-16 h-auto mx-auto">
+                    <div class="justify-center">
+                        <div class="text-center bg-cover bg-center max-w-3xl pt-20">
+                            <h2 class="text-3xl leading-tight sm:text-4xl sm:leading-snug md:text-5xl md:leading-tight lg:text-5xl lg:leading-none sm:p-4">Simplify Learning Experiences with Learning Pods</h2>
+                            <p class="text-sm font-light px-40 pt-6 text-[#e1e1e1]">Explore our platform. Connect with your learning community. Curate a better world, one byte of knowledge at a time.</p>
+                        </div>
+                        <div class="relative">
+                            <div class="my-8">
+                                <img src="./assets/images/backgrounds/group-8610.png" alt="Responsive Image" class="relative max-w-[500px] h-auto mx-auto">
+                            </div>
+                        </div>
+                    </div>      
+                </div>
+            </div>
+            <div class="placeholder-image">
+                <div class="placeholder-image-left">
+                    <img src="./assets/images/backgrounds/union-1.png" alt="Responsive Image" class="absolute max-w-[300px] h-auto mx-auto">
+                </div>
+            </div>
+            <div class="button-contain">
+                <a class="download-button">DOWNLOAD</a>
+                <a class="signup-button">SIGN UP</a>
+            </div>
+        </section>
+
+        <section class="learning-pods pt-16 relative flex flex-col text-white text-center items-center justify-center bg-black">
+            <div class="learning-pods-contain max-w-[30rem]">
+                <h3 class="text-4xl pb-5">What are Learning Pods?</h3>
+                <p class="text-sm font-light">Learning Pods started out with a goal to reimagine how we learn, share expertise, connect with one another as a community and explore a myriad of opportunities.</p>
+            </div>
+            <div class="text-white text-center flex flex-col items-center justify-center img-shadow">
+                <img src="./assets/images/backgrounds/scroll-group-7.png" alt="Responsive Image" class="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-3xl h-auto mx-auto">
+            </div>            
+        </section>
+        
+        <section class="learning-proc pt-24 pb-24 relative flex flex-col text-white text-center items-center justify-center bg-black">
+            <div class="learning-proc-contain ">
+                <h3 class="text-4xl pb-5">Explore a new learning process</h3>
+                <p class="text-sm font-light max-w-[30rem]">Embark on a transformative journey of discovery, where each day brings a new, engaging learning experience</p>
+            </div>
+            <div class="placeholder-image">
+                <div class="placeholder-image-left">
+                    <img src="./assets/images/backgrounds/union-1.png" alt="Responsive Image" class="absolute max-w-[300px] h-auto mx-auto">
+                </div>                
+            </div>
+            <div class="image-container mt-14 mb-24">
+                <div class="image-card">
+                    <img src="./assets/images/backgrounds/icon-box-2.png" alt="Image 1" class="background-image left">
+                    <img src="./assets/images/backgrounds/icon-box-1.png" alt="Image 2" class="focused-image center">
+                    <img src="./assets/images/backgrounds/icon-box-3.png" alt="Image 3" class="background-image right">
+                </div>
+                <div class="image-description">
+                    <h3>Create & Curate</h3>
+                    <p>Use open educational materials to create micro lessons on the fly. Be an engagement champion by combining your wits with a wide range of learning tools.</p>
+                </div>
+            </div>
+            <div class="image-container mt-24 mb-24">
+                <div class="image-card">
+                    <img src="./assets/images/backgrounds/icon-box-2.png" alt="Image 1" class="background-image left">
+                    <img src="./assets/images/backgrounds/icon-box-1.png" alt="Image 2" class="focused-image center">
+                    <img src="./assets/images/backgrounds/icon-box-3.png" alt="Image 3" class="background-image right">
+                </div>
+                <div class="image-description">
+                    <h3>Showcase your pods</h3>
+                    <p>Share your pods with your friends, and let it ripple into impacting the community. Invite your buddies and enjoy learning together.</p>
+                </div>
+            </div>
+            <div class="image-container mt-24 mb-24">
+                <div class="image-card">
+                    <img src="./assets/images/backgrounds/icon-box-2.png" alt="Image 1" class="background-image left">
+                    <img src="./assets/images/backgrounds/icon-box-1.png" alt="Image 2" class="focused-image center">
+                    <img src="./assets/images/backgrounds/icon-box-3.png" alt="Image 3" class="background-image right">
+                </div>
+                <div class="image-description">
+                    <h3>Stay in the loop</h3>
+                    <p>Gain perspectives. Embrace differences. Develop insights and collaborate to share your knowledge with the world. Learning is most effective when done collectively.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="learning-proc pt-16 pb-16 relative flex flex-col text-white text-center items-center justify-center bg-black">
+            <div class="learning-proc-contain max-w-[30rem]">
+                <h3 class="text-4xl pb-5">Improve your social learning game</h3>
+                <p class="text-sm font-light">Enhance your social learning prowess with Pods, where connecting and growing together is at the heart of our mission.</p>
+            </div>
+            <div class="placeholder-image">
+                <div class="placeholder-image-left">
+                    <img src="./assets/images/backgrounds/union-1.png" alt="Responsive Image" class="absolute max-w-[300px] h-auto mx-auto">
+                </div>                
+            </div>
+            <div class="image-container pt-14">
+                <div class="image-card">
+                    <img src="./assets/images/backgrounds/component-51-1.png" alt="Image 3" class="sm:w-[300px] md:w-[350px] lg:max-w-[400px] xl:max-w-[400px]">
+                </div>
+            </div>
+        </section>
+
+        <section class="learning-proc pt-16 pb-16 relative flex flex-col text-white text-center items-center justify-center bg-black">
+            <div class="learning-proc-contain max-w-[38rem]">
+                <h3 class="text-4xl pb-5">Have fun with more.</h3>
+                <p class="text-sm font-light">Experience the delight of learning with more content, more connections, more fun as you enter a world of new pathways of making education entertaining and engaging using a diverse range of materials at your fingertips.</p>
+            </div>
+            <div class="more-container mx-auto py-14 px-32">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                  <div class="flex flex-col justify-center items-center bg-[#e51777]">
+                    <img src="./assets/images/backgrounds/more-space.png" alt="Image 3" class="max-w-[90px]">
+                    <p>More Space</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>                      
+                  </div>
+                  <div class="flex flex-col justify-center items-center bg-[#22b6ff]">
+                    <img src="./assets/images/backgrounds/more-process.png" alt="Image 3" class="max-w-[90px]">
+                    <p>More Process</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>                      
+                  </div>
+                  <div class="flex flex-col justify-center items-center bg-[#ffe115]">
+                    <img src="./assets/images/backgrounds/more-materials.png" alt="Image 3" class="max-w-[90px]">
+                    <p>More Materials</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>                      
+                  </div>
+                  <div class="flex flex-col justify-center items-center bg-[#3f48f5]">
+                    <img src="./assets/images/backgrounds/more-progress.png" alt="Image 3" class="max-w-[90px]">
+                    <p>More Progress</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>                      
+                  </div>
+                </div>
+            </div>              
+        </section>
+        
+        <section class="learning-proc-footer pt-16 relative flex flex-col text-white text-center items-center justify-center bg-black">
+            <div class="container mx-auto">
+                <div class="container grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div class="text-left sm:text-center ml-32 sm:ml-16 md:ml-8 lg:ml-4 xl:ml-0 pt-14 sm:pt-10 md:pt-8 lg:pt-6 max-w-[22rem]">
+                    <h3 class="text-4xl pb-5">Download the app</h3>
+                    <p class="text-sm font-light">Unlock a world of limitless learning possibilities. Download the Learning Pods app today.</p>
+                    <img src="./assets/images/backgrounds/apple-googleplay.png" alt="Image 3" class="max-w-[22rem]">
+                </div>
+                  <div class="text-right">
+                    <img src="./assets/images/backgrounds/footer-image.png" alt="Image 3" class="w-full">
+                  </div>
+                </div>
+              </div>
+        </section>
+    </main>
+</body>
+<script src="./assets/js/script.js"></script>
+</html>
+
